@@ -1,0 +1,34 @@
+//
+To change the android studio package name
+	
+In Android Studio, you can do this:
+
+For example, if you want to change com.example.app to my.awesome.game, then:
+
+    In your Project pane, click on the little gear icon ( Gears icon )
+
+    Uncheck / De-select the Compact Empty Middle Packages option
+
+Compact Empty Middle Packages
+
+    Your package directory will now be broken up in individual directories
+
+    Individually select each directory you want to rename, and:
+        Right-click it
+        Select Refactor
+        Click on Rename
+        In the Pop-up dialog, click on Rename Package instead of Rename Directory
+        Enter the new name and hit Refactor
+        Click Do Refactor in the bottom
+        Allow a minute to let Android Studio update all changes
+        Note: When renaming com in Android Studio, it might give a warning. In such case, select Rename All
+
+enter image description here
+
+    Now open your Gradle Build File (build.gradle - Usually app or mobile). Update the applicationId to your new Package Name and Sync Gradle, if it hasn't already been updated automatically:
+
+Refactor Directories
+
+    Done! Anyways, Android Studio needs to make this process a little simpler.
+
+

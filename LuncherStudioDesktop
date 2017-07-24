@@ -1,0 +1,24 @@
+
+
+To create a desktop file do this:
+
+    Open Gedit.
+
+    Paste the following into the file, editing the relevant parts:
+
+    [Desktop Entry]
+    Version=1.0
+    Type=Application
+    Terminal=false
+    Icon=someicon
+    Exec=sh /path/to/studio.sh
+    Name=Android Studio
+
+    Now, save this file as somename.desktop, to your desktop.
+
+    Next, you need to make this file executable by typing the command:
+
+    cd ~/Desktop && chmod a+x somename.desktop
+
+Now, double-clicking the application should launch your application.
+

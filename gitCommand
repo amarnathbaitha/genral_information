@@ -1,0 +1,27 @@
+//
+
+pushing local project to repository
+===================================
+
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+1. git init
+2. git status
+3. git add --all
+4. git status
+5. git commit -am "add retrofit android app"
+6. git status
+7. git branch
+8. git remote add origin https://github.com/amarnathbaitha/retrofit.git
+9. git remote -v
+10. git push origin master
+11. git status
+
+fetch from repository
+=====================
+1. git clone https://github.com/amarnathbaitha/retrofit.git
+git add -A
+
+
+//for push the existing android project from android studio to github
+=====================================================================
+https://www.londonappdeveloper.com/how-to-use-git-hub-with-android-studio/

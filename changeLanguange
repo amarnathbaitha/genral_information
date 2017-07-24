@@ -1,0 +1,11 @@
+//
+private void changeLanguage() {
+        String languageToLoad = "de"; // your language code
+        Locale locale = new Locale(languageToLoad);
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale = locale;
+        getActivity().getBaseContext().getResources().updateConfiguration(config,
+                getActivity().getBaseContext().getResources().getDisplayMetrics());
+    }
+
